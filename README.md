@@ -6,6 +6,10 @@ $ vi terraform.tfvars
 $ terraform apply
 ```
 Function URL of lambda is displayed when apply is complete.
+```
+Outputs:
+api_url = "https://*****************d5eboi0tjxqy.lambda-url.ap-northeast-1.on.aws/"
+```
 
 # How to Deploy
 ```shell
