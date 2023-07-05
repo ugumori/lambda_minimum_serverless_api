@@ -1,10 +1,11 @@
 # How to create AWS Resources
 Edit aws_account_id and do `apply`.
 ```shell
-cd terraform
-vi terraform.tfvars
-terraform apply
+$ cd terraform
+$ vi terraform.tfvars
+$ terraform apply
 ```
+Function URL of lambda is displayed when apply is complete.
 
 # How to Deploy
 ```shell
@@ -21,7 +22,6 @@ latest: digest: sha256:d12aa06e6966509f877d5da4b61b0d87b68a6fab21409b7492f81714a
 $ aws lambda update-function-code --region ap-northeast-1 --function-name lambda_minimum_serverless_api --image-uri ${YOUR_ACCOUNT_ID}.dkr.ecr.ap-northeast-1.amazonaws.com/apps/sample/api@sha256:d12aa06e6966509f877d5da4b61b0d87b68a6fab21409b7492f81714a7fa3cbe
 ```
 
-Function URL of lambda is displayed.
 
 # How to Access
 Open browser and access function URL.
@@ -29,6 +29,6 @@ Open browser and access function URL.
 ![SwaggerUI](./capcap.png)
 
 # More details
-More details are explained in the following article
+More details are explained in the following article.
 
 https://qiita.com/ugu/items/ffcff085daa4536444dc
