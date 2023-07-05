@@ -24,4 +24,6 @@ aws lambda update-function-code --region ap-northeast-1 --function-name lambda_m
 Function URL of lambda is displayed.
 
 # How to Access
-Open Brower and access function URL.
+Open browser and access function URL.
+
+![SwaggerUI](./capcap.png)
