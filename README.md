@@ -1,4 +1,4 @@
-# How to create AWS Resources
+# How to create AWS resources
 Edit aws_account_id and do `apply`.
 ```shell
 $ cd terraform
